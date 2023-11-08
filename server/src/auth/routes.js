@@ -35,7 +35,11 @@ AuthRouter.post("/login", async (req, res) => {
 AuthRouter.post("/register", async (req, res) => {
   const { email, password } = req.body;
 
-  if (!email?.length || !password?.length)
+  if (
+    !email?.length ||
+    !password?.length ||
+    !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+  )
     return res.status(400).json({ status: 400, message: "Invalid body" });
 
   try {

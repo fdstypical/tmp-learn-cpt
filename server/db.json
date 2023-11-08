@@ -1,25 +1,6 @@
 {
-  "users": [
-    {
-      "email": "test4@gmail.com",
-      "id": 1,
-      "password": "dec55c0aaad18a8906c567379f8fff938d2c8c5f085227366d7f9563e6fa616cdc482a1613aab476be990113901b369c1af650a2955ec057af80c8621d265a14.d17fc0f027544e400d05a2c20996aa5f"
-    }
-  ],
-  "cardItems": [
-    {
-      "userId": 1,
-      "goodId": 1
-    },
-    {
-      "userId": 1,
-      "goodId": 2
-    },
-    {
-      "userId": 1,
-      "goodId": 5
-    }
-  ],
+  "users": [],
+  "cardItems": [],
   "categories": [
     {
       "id": 1,
