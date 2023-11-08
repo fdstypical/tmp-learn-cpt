@@ -1,0 +1,20 @@
+{
+  "name": "@frontentd_stage_2/server",
+  "version": "1.0.0",
+  "description": "Fake API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "json-server": "^0.17.4",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.4"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "email": "test4@gmail.com",
+      "id": 1,
+      "password": "dec55c0aaad18a8906c567379f8fff938d2c8c5f085227366d7f9563e6fa616cdc482a1613aab476be990113901b369c1af650a2955ec057af80c8621d265a14.d17fc0f027544e400d05a2c20996aa5f"
+    }
+  ],
+  "cardItems": [
+    {
+      "userId": 1,
+      "goodId": 1
+    },
+    {
+      "userId": 1,
+      "goodId": 2
+    },
+    {
+      "userId": 1,
+      "goodId": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Мячи",
+      "discount": 5
+    },
+    {
+      "id": 2,
+      "name": "Кроссовки",
+      "discount": null
+    },
+    {
+      "id": 3,
+      "name": "Майки",
+      "discount": 7.5
+    },
+    {
+      "id": 4,
+      "name": "Шорты",
+      "discount": null
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "name": "Баскетбольный мяч",
+      "description": "Кроссовки Air Jordan 5 Retro 'Top 3'\nЗакругленный носок, плоская\nрезиновая подошва.",
+      "preview": "127.0.0.1:8080/static/3cf4f311e68bb268.png",
+      "price": 1290,
+      "discount": 485,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Баскетбольный мяч",
+      "description": "Мягкий материал мяча обеспечивает\nпревосходный контакт с мячом во\nвремя игры.",
+      "preview": "127.0.0.1:8080/static/12dc2b4731f85d29.png",
+      "price": 1290,
+      "discount": 485,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Кроссовки Air Jordan",
+      "description": "Кроссовки Air Jordan 5 Retro 'Top 3'\nЗакругленный носок, плоская\nрезиновая подошва.",
+      "preview": "127.0.0.1:8080/static/52c0a2419e46e8df.png",
+      "price": 8190,
+      "discount": 1570,
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "Кроссовки Nike Lebron XVII",
+      "description": "Большая вставка разработана именно\nдля Расса и выделена линиями,\nпридающими такую форму.",
+      "preview": "127.0.0.1:8080/static/b49e62d46ee187cc.png",
+      "price": 4390,
+      "discount": 1439,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Майка Jordan Sport",
+      "description": "Футболка Nike НБА Dri-FIT Miami Heat\nвыполнена в стиле джерси City,\nв которых играет команда.",
+      "preview": "127.0.0.1:8080/static/48c7fd5e72265a83.png",
+      "price": 2300,
+      "discount": null,
+      "categoryId": 3
+    },
+    {
+      "id": 6,
+      "name": "Майка new york",
+      "description": "Футболка Nike НБА NEW YOURK Logo\nвыполнена в стиле City Edition,\nв которых играет моя команда.",
+      "preview": "127.0.0.1:8080/static/13a9968de2b2ed7e.png",
+      "price": 1300,
+      "discount": 799,
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "Шорты баскетбольные",
+      "description": "Шорты баскетбольные JBS-1120-014\nсвободного кроя для отличного\nкомфорта во время игры.",
+      "preview": "127.0.0.1:8080/static/13a9968de2b2ed7e.png",
+      "price": 1299,
+      "discount": 400,
+      "categoryId": 4
+    },
+    {
+      "id": 8,
+      "name": "Шорты баскетбольные",
+      "description": "Повседневный стиль сочетается в\nшортах Jordan Jumpman Air TOP\nИ дарит ощущение свободы.",
+      "preview": "127.0.0.1:8080/static/13a9968de2b2ed7e.png",
+      "price": 2099,
+      "discount": null,
+      "categoryId": 4
+    }
+  ]
+}
